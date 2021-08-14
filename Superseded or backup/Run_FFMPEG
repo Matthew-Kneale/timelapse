@@ -1,0 +1,10 @@
+ffmpeg -r 30 -i Pictures/Timelapse/image%06d.jpg -qscale 2 animation.mp4
+
+ffmpeg -r 30 -i Pictures/Timelapse/image%06d.jpg -q:a 1 animation.mp4
+
+ffmpeg -r 30 -i Pictures/Reduced/Reducedimage%06d.jpg -q:a 1 animation3.mp4
+
+
+/home/pi/Pictures/Reduced
+
+

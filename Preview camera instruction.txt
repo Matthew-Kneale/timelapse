@@ -1,0 +1,8 @@
+to preview camera type in terminal
+
+raspistill -t 0
+
+
+Ctrl + C to exit
+
+raspistill -t 0 -p 0 0 3280 2464
